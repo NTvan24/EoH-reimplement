@@ -1,0 +1,2 @@
+31/10: Lỗi do LLM gen ra code bị xung đột thư viện
+    Cụ thể: LLM dùng hàm np.asscalar(), đã bị xóa hoàn toàn từ NumPy 1.24 trở lên.
